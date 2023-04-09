@@ -80,4 +80,6 @@ footer ul {
 
 .wave img {
     width: 100%;
+    position: relative;
+    bottom: -4px;
 }
