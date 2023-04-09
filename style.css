@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color-line: hsla(210, 19%, 94%, 1);
+
+    --text-color-primary: hsla(245, 17%, 29%, 1);
+    --text-color-secondary: hsla(0, 0%, 51%, 1);
+    --text-color-span: hsla(295, 100%, 57%, 1);
+
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+}
+  
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 6.4rem;
+}
+
+.container p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color-secondary);
+    font-size: 1.5rem;
+    width: 54.0rem;
+    line-height: 2.2rem;
+}
+
+.container p span {
+    color: var(--text-color-primary);
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    color: var(--text-color-primary);
+    font-weight: 500;
+    font-size: 3.2rem;
+    padding-top: 3.2rem;
+    padding-bottom: 1.6rem;
+}
+
+h1 span {
+    color: var(--text-color-span);
+    font-weight: 700;
+}
+
+footer {
+    font-size: 1.5rem;
+}
+
+footer .line {
+    border: 1px solid var(--bg-color-line);
+    width: 39.1rem;
+    margin-bottom: 1.6rem;
+}
+
+footer ul {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color-primary);
+    display: flex;
+    gap: 4.2rem;
+    list-style: none;
+    font-weight: 700;
+}
+
+.wave {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.wave img {
+    width: 100%;
+}
