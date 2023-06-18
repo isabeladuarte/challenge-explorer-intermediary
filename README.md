@@ -1,7 +1,7 @@
 <h1 align="center">Next Destiny </h1>
 
 <p align="center">
-Esse desafio tem como objetivo de corrigir os bugs no projeto que foi proposto Next Destiny da <a href="https://www.rocketseat.com.br/">Rocketseat</a>. <br/>
+Esse desafio tem como objetivo desenvolver o projeto Next Destiny da <a href="https://www.rocketseat.com.br/">Rocketseat</a>. <br/>
 </p>
 
 <p align="center">
